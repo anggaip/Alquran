@@ -1,0 +1,2 @@
+# Alquran
+Simple Alquran
