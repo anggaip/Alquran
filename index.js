@@ -4,10 +4,7 @@
  */
 
 import { Navigation } from 'react-native-navigation'
-import App from './App'
-import { name as appName } from './app.json'
-
-Navigation.registerComponent(appName, () => App)
+import './src/navigator/RegisterComponents'
 
 Navigation.events().registerAppLaunchedListener(() => {
   Navigation.setRoot({
@@ -16,7 +13,7 @@ Navigation.events().registerAppLaunchedListener(() => {
         children: [
           {
             component: {
-              name: appName,
+              name: 'home',
               options: {
                 topBar: {
                   visible: false
