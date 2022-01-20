@@ -72,7 +72,8 @@ const styles = EStyleSheet.create({
     borderBottomColor: '#cccccc'
   },
   fontStyle: {
+    fontFamily: '_PDMS_Saleem_QuranFont',
     color: '#000000',
-    fontSize: '16rem'
+    fontSize: '28rem'
   }
 })

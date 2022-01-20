@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* AlquranTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AlquranTests.m */; };
+		0DED7DBCACCD4EE1AA5598D4 /* _PDMS_Saleem_QuranFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7764A99DA4D49C0810B6F6D /* _PDMS_Saleem_QuranFont.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		4B64A2C7278DA0AA00CF69AC /* libswiftWebKit.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B64A2C6278DA0AA00CF69AC /* libswiftWebKit.tbd */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		93178DA20ABA5EB03AF4A204 /* libPods-Alquran-AlquranTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 877228028E302746EF0DCD9D /* libPods-Alquran-AlquranTests.a */; };
 		E0C6FA56C8CD2B3DA29B57A0 /* libPods-Alquran.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D92B1B486ACDC94EF0EEA1 /* libPods-Alquran.a */; };
@@ -37,6 +39,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Alquran/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Alquran/main.m; sourceTree = "<group>"; };
 		48D92B1B486ACDC94EF0EEA1 /* libPods-Alquran.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Alquran.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B64A2C6278DA0AA00CF69AC /* libswiftWebKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftWebKit.tbd; path = usr/lib/swift/libswiftWebKit.tbd; sourceTree = SDKROOT; };
 		5C5A95B18B4C1C2D44E8D53B /* Pods-Alquran-AlquranTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alquran-AlquranTests.release.xcconfig"; path = "Target Support Files/Pods-Alquran-AlquranTests/Pods-Alquran-AlquranTests.release.xcconfig"; sourceTree = "<group>"; };
 		6080E7B1FAAB6063D9FFA3A7 /* Pods-Alquran.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alquran.debug.xcconfig"; path = "Target Support Files/Pods-Alquran/Pods-Alquran.debug.xcconfig"; sourceTree = "<group>"; };
 		81027E0A0823F47A8DE93123 /* Pods-Alquran.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alquran.release.xcconfig"; path = "Target Support Files/Pods-Alquran/Pods-Alquran.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		877228028E302746EF0DCD9D /* libPods-Alquran-AlquranTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Alquran-AlquranTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41DA01EAC54DE3026D348E7 /* Pods-Alquran-AlquranTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alquran-AlquranTests.debug.xcconfig"; path = "Target Support Files/Pods-Alquran-AlquranTests/Pods-Alquran-AlquranTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F7764A99DA4D49C0810B6F6D /* _PDMS_Saleem_QuranFont.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = _PDMS_Saleem_QuranFont.ttf; path = ../src/assets/fonts/_PDMS_Saleem_QuranFont.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B64A2C7278DA0AA00CF69AC /* libswiftWebKit.tbd in Frameworks */,
 				E0C6FA56C8CD2B3DA29B57A0 /* libPods-Alquran.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,6 +88,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		090407F1E2E34D18BAAFF67B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7764A99DA4D49C0810B6F6D /* _PDMS_Saleem_QuranFont.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* Alquran */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +112,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4B64A2C6278DA0AA00CF69AC /* libswiftWebKit.tbd */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				48D92B1B486ACDC94EF0EEA1 /* libPods-Alquran.a */,
 				877228028E302746EF0DCD9D /* libPods-Alquran-AlquranTests.a */,
@@ -133,6 +147,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				3BB1268E75C4733ED406695A /* Pods */,
+				090407F1E2E34D18BAAFF67B /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -244,6 +259,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				0DED7DBCACCD4EE1AA5598D4 /* _PDMS_Saleem_QuranFont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +447,7 @@
 			baseConfigurationReference = A41DA01EAC54DE3026D348E7 /* Pods-Alquran-AlquranTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = UW4T488US6;
+				DEVELOPMENT_TEAM = F4HDVT3ZZC;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -460,7 +476,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = UW4T488US6;
+				DEVELOPMENT_TEAM = F4HDVT3ZZC;
 				INFOPLIST_FILE = AlquranTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -486,12 +502,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UW4T488US6;
+				DEVELOPMENT_TEAM = F4HDVT3ZZC;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Alquran/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -513,11 +533,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UW4T488US6;
+				DEVELOPMENT_TEAM = F4HDVT3ZZC;
 				INFOPLIST_FILE = Alquran/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -580,7 +604,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -638,7 +662,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
