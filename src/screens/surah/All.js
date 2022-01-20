@@ -66,6 +66,7 @@ const styles = EStyleSheet.create({
     alignItems: 'flex-end'
   },
   fontStyle: {
+    fontFamily: '_PDMS_Saleem_QuranFont',
     color: '#000000',
     fontSize: '16rem'
   }
