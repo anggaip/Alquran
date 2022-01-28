@@ -4,7 +4,8 @@
  */
 
 import * as React from 'react'
-import { Text } from 'react-native'
+import { Text, useColorScheme } from 'react-native'
+import EStyleSheet from 'react-native-extended-stylesheet'
 
 type Props = {
   text: string,
@@ -12,7 +13,28 @@ type Props = {
 };
 
 const MyText = (props: Props): React.Node => {
-  return <Text style={props.style}>{props.text}</Text>
+  const isDarkMode = useColorScheme() === 'dark'
+
+  return (
+    <Text style={[setColorScheme(isDarkMode), props.style]}>{props.text}</Text>
+  )
+}
+
+function setColorScheme (isDarkMode: boolean): Object {
+  if (isDarkMode) {
+    return styles.darkMode
+  }
+
+  return styles.lightMode
 }
 
 export default MyText
+
+const styles = EStyleSheet.create({
+  darkMode: {
+    color: 'rgb(249, 249, 249)'
+  },
+  lightMode: {
+    color: '#000000'
+  }
+})

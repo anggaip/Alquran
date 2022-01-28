@@ -4,7 +4,8 @@
  */
 
 import * as React from 'react'
-import { SafeAreaView, View } from 'react-native'
+import { useColorScheme } from 'react-native'
+import { View, Colors } from 'react-native-ui-lib'
 import EStyleSheet from 'react-native-extended-stylesheet'
 
 type Props = {
@@ -13,16 +14,32 @@ type Props = {
 };
 
 const MyView = (props: Props): React.Node => {
+  const isDarkMode = useColorScheme() === 'dark'
+
   return (
-    <SafeAreaView style={{ flex: 1 }}>
-      <View style={[styles.view, props.style]}>{props.children}</View>
-    </SafeAreaView>
+    <View flex useSaveArea style={setColorScheme(isDarkMode)}>
+      <View {...props}>{props.children}</View>
+    </View>
   )
+}
+
+function setColorScheme (isDarkMode: boolean): Object {
+  if (isDarkMode) {
+    return styles.darkMode
+  }
+
+  return styles.lightMode
 }
 
 export default MyView
 
 const styles = EStyleSheet.create({
+  darkMode: {
+    backgroundColor: 'rgb(33, 35, 41)'
+  },
+  lightMode: {
+    backgroundColor: '#ffffff'
+  },
   view: {
     flex: 1,
     flexDirection: 'column'

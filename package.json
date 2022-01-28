@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "start": "react-native start",
+    "android": "npx react-native run-android",
+    "ios": "npx react-native run-ios",
+    "start": "npx react-native start",
     "test": "jest",
     "lint": "eslint .",
     "podInstall": "cd ios && pod install && cd ..",
@@ -15,7 +15,10 @@
     "react": "17.0.2",
     "react-native": "0.66.4",
     "react-native-extended-stylesheet": "0.12.0",
-    "react-native-navigation": "7.25.0"
+    "react-native-gesture-handler": "2.2.0",
+    "react-native-navigation": "7.25.0",
+    "react-native-reanimated": "2.3.1",
+    "react-native-ui-lib": "6.8.1"
   },
   "devDependencies": {
     "@babel/cli": "7.14.5",

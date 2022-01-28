@@ -13,6 +13,12 @@ export const navigationPush = (componentId: string, newComponent: Object) => {
         topBar: {
           title: {
             text: newComponent.title.text
+          },
+          background: {
+            color: {
+              light: '#ffffff',
+              dark: 'rgb(33, 35, 41)'
+            }
           }
         }
       }
