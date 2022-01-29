@@ -20,9 +20,9 @@ const MyButton = (props: Props): React.Node => {
     <TouchableHighlight
       style={[styles.button, props.style]}
       activeOpacity={0.6}
-      underlayColor="#DDDDDD"
+      underlayColor="#283663"
       onPress={props.onPress}>
-      <MyText text={props.title} style={[styles.title, props.fontStyle]} />
+      <MyText text={props.title} {...props} />
     </TouchableHighlight>
   )
 }
@@ -31,7 +31,6 @@ export default MyButton
 
 const styles = EStyleSheet.create({
   button: {
-    backgroundColor: '#2196F3',
     padding: '5rem',
     borderRadius: 5,
     margin: '5rem'

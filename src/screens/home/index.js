@@ -59,7 +59,7 @@ class Home extends React.Component<Props> {
     EStyleSheet.build({ $rem: realWidth / 360 })
 
     return (
-      <MyView flex style={styles.wrapping} bg-screenBG>
+      <MyView flex style={styles.wrapping}>
         <View center paddingT-80 paddingB-50>
           <Text h3 textColor style={{ fontFamily: 'Poppins-Regular' }} marginB-10>
             Quran App

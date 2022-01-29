@@ -13,12 +13,35 @@ type Props = {
   children: React.Node
 };
 
+Colors.loadColors({
+  dark: '#091945'
+})
+
+Colors.loadSchemes({
+  light: {
+    screenBG: 'transparent',
+    textColor: Colors.grey20,
+    moonOrSun: Colors.yellow30,
+    mountainForeground: Colors.green30,
+    mountainBackground: Colors.green50
+  },
+  dark: {
+    screenBG: Colors.dark,
+    textColor: Colors.white,
+    moonOrSun: Colors.grey80,
+    mountainForeground: Colors.violet10,
+    mountainBackground: Colors.violet20
+  }
+})
+
 const MyView = (props: Props): React.Node => {
   const isDarkMode = useColorScheme() === 'dark'
 
   return (
     <View flex useSaveArea style={setColorScheme(isDarkMode)}>
-      <View {...props}>{props.children}</View>
+      <View {...props} bg-screenBG>
+        {props.children}
+      </View>
     </View>
   )
 }

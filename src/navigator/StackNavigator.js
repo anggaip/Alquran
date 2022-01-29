@@ -10,6 +10,7 @@ export const navigationPush = (componentId: string, newComponent: Object) => {
     component: {
       name: newComponent.name,
       options: {
+        popGesture: false,
         topBar: {
           title: {
             text: newComponent.title.text
@@ -17,7 +18,7 @@ export const navigationPush = (componentId: string, newComponent: Object) => {
           background: {
             color: {
               light: '#ffffff',
-              dark: 'rgb(33, 35, 41)'
+              dark: '#091945'
             }
           }
         }
