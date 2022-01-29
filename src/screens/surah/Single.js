@@ -24,7 +24,7 @@ class Single extends React.Component<Props> {
     }
 
     return (
-      <MyView>
+      <MyView flex>
         <FlatList
           data={DATA['s' + this.props.surah.number].verses}
           renderItem={(item, index) => this.renderItem(item, index)}

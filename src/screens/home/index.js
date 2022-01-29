@@ -118,7 +118,7 @@ class Home extends React.Component<Props> {
     return {
       name: 'all',
       title: {
-        text: "Baca Al Qur'an"
+        text: 'Quran App'
       }
     }
   }

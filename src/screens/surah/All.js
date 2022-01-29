@@ -83,6 +83,15 @@ class All extends React.Component<Props> {
           topBar: {
             title: {
               text: item.name.long
+            },
+            background: {
+              color: {
+                light: '#ffffff',
+                dark: '#091945'
+              }
+            },
+            backButton: {
+              showTitle: false
             }
           }
         },
